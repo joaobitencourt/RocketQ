@@ -1,0 +1,67 @@
+.modal-wrapper.active{
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal-wrapper{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    background: rgba(7, 14, 17, .8);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.modal-wrapper .modal{
+    width: min(59rem, 90%);
+    background: var(--white);
+    border-radius: .8rem;
+    margin: auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;  
+    padding: 6.4rem;
+}
+
+.modal h2{
+    margin-bottom: 1.2rem;
+    color: var(--black);
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.modal p{
+    margin-bottom: 2.1rem;
+    color: var(--grey-grey);
+}
+
+.modal form input{
+    width: min(30.2rem, 70%rem);
+    margin-bottom: 4rem;
+    padding: 1.3rem 1.6rem;
+    border: .2rem solid var(--blue);
+    background: transparent;
+    outline: none;
+}
+
+.modal form input::placeholder{
+    color: var(--black);
+}
+
+.modal form .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal form .buttons > .button{
+    margin-right: .8rem;
+    padding: 1.3rem 3.2rem;
+}
+
+
+.modal form .buttons > button{
+    padding: 1.3rem 3.2rem;
+}
