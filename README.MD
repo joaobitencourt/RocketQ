@@ -1,0 +1,1 @@
+Projeto feito no NLW Together trilha discover, onde fizemos um site de perguntas anonimas, que uma pessoa pode criar uma sala, passar o código dela para os amigos, comunidade no discord, twitch , instagram etc.. e poder interagir diratamente com a comunidade. 
